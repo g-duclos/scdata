@@ -1,0 +1,18 @@
+Package: scdata
+Title: An R package for storage and simple retrieval of single-cell genomic data
+Version: 1.0
+Authors@R: 
+    person("Grant", "Duclos", , "grant.duclos@gmail.com", role = c("aut", "cre"))
+Description: This package enables the storage and retrieval of single-cell genomic data.
+License: `use_gpl3_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+Imports: 
+    Biobase,
+    devtools
+Depends: 
+    Matrix,
+    R (>= 2.10),
+    usethis
+LazyData: true

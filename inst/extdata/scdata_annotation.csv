@@ -1,0 +1,5 @@
+Sample_ID,Sample_Path,Source,Assay,Multi,Tissue,Type,Unit
+Sample_1,/path/to/Sample_1,10x_Genomics,3p_RNA,FALSE,Blood,PBMC,Cells
+Sample_2,/path/to/Sample_2,10x_Genomics,5p_RNA,TRUE,Blood,PBMC,Cells
+Sample_3,/path/to/Sample_3,10x_Genomics,3p_RNA,FALSE,Lung,Tumor,Nuclei
+Sample_4,/path/to/Sample_4,10x_Genomics,3p_RNA,FALSE,Lung,Tumor,Nuclei
