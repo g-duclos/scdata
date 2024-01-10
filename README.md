@@ -19,6 +19,7 @@ Run R and install the package
 install.packages("scprep", repos=NULL, type="source")
 ```
 
+***
 
 ## Getting Started
 
@@ -36,7 +37,6 @@ print(scdata_metadata)
 ```
 ![metadata_sub](inst/extdata/scdata_metadata_sub.png)
 
-***
 
 #### Load Example Data
 
