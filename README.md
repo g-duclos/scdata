@@ -19,7 +19,6 @@ Run R and install the package
 install.packages("scprep", repos=NULL, type="source")
 ```
 
-***
 
 ## Getting Started
 
