@@ -35,14 +35,36 @@ data(scdata_metadata, package="scdata")
 print(scdata_metadata)
 
 ```
+
+| Sample_ID | Source | Type | Unit |
+| --- | --- | --- | --- |
+| 'PBMC_3p_10K' | 10x_Genomics | PBMC | Cells |
+| 'PBMC_5p_10K' | 10x_Genomics | PBMC | Cells |
+| 'Breast_Tumor_3p' | 10x_Genomics | Breast_Tumor | Cells |
+| 'Brain_Tumor_3p' | 10x_Genomics | Brain_Tumor | Cells |
+| 'Intestine_Nuc_3p' | 10x_Genomics | Intestine | Nuclei |
+
+
+
+#### View Available Data
+
+```
+library(scdata)
+
+# Load MetaData
+data(scdata_metadata, package="scdata")
+
+# View available package data
+print(scdata_metadata)
+
+```
 ![metadata_sub](inst/extdata/scdata_metadata_sub.png)
+
 
 
 #### Load Example Data
 
 ```
-library(scdata)
-
 # Load scRNA-Seq Data
 data(PBMC_3p_10K, package="scdata")
 
