@@ -55,26 +55,12 @@ PBMC_3p_10K_ordered <- PBMC_3p_10K[order(PBMC_3p_10K[,1], decreasing=TRUE), ]
 print(PBMC_3p_10K_ordered[1:5, 1:2])
 ```
 
-| ' ' | AAACCCAGTATATGGA-1 | AAACCCAGTATCGTAC-1 |
+|     | AAACCCAGTATATGGA-1 | AAACCCAGTATCGTAC-1 |
 | --- | --- | --- |
 `ENSG00000251562` | 100 | 2 |
 `ENSG00000198712` | 65 | 1 |
 `ENSG00000198804` | 64 | 3 |
 `ENSG00000198938` | 57 | 2 |
 `ENSG00000198899` | 55 | 0 |
-
-
-#### Load Example Data
-
-```
-# Load scRNA-Seq Data
-data(PBMC_3p_10K, package="scdata")
-
-# View the 1st 5 rows and 2 columns
-print(PBMC_3p_10K[1:5, 1:2])
-
-```
-![PBMC_3p_10K_sub](inst/extdata/scdata_PBMC_3p_10K_sub.png)
-
 
 
