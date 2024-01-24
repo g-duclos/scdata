@@ -9,14 +9,9 @@ An R package for quickly loading pre-processed single-cell (sc) RNA-Seq data for
 
 ## Installation
 
-Clone the 'scprep' repository
+The **scdata** R package can be installed from Github using devtools:
 ```
-git clone https://github.com/g-duclos/scprep.git
-```
-
-Run R and install the package
-```
-install.packages("scprep", repos=NULL, type="source")
+devtools::install_github("g-duclos/scdata")
 ```
 
 ***
